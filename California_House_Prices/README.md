@@ -5,9 +5,9 @@ This project implements a data processing pipeline for the California Housing da
 ## Process Overview
 
 1.  **Data Acquisition**:
-    *   The project uses `urllib.request` to download the `housing.tgz` tarball from a remote repository.
+    *   The project uses `urllib.request` to download the `housing.tgz` *``tarball``* from a remote repository.
     *   The `tarfile` library is used to extract the `housing.csv` file into a local `datasets` directory.
-    *   `pandas` is used to load the CSV data into a DataFrame for manipulation.
+    *   `pandas` is used to load the CSV data into a *``DataFrame``* for manipulation.
 
 2.  **Data Exploration**:
     *   The dataset contains geographical information (longitude/latitude), housing characteristics (age, rooms, bedrooms), and economic indicators (median income, house value).
